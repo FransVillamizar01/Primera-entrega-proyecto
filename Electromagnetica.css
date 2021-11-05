@@ -1,0 +1,117 @@
+body {
+    background-image: url(http://31.media.tumblr.com/85beae914c6e1ca93ffae71136dbb0e8/tumblr_mq62ruy6Np1s0sq15o1_500.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  header {
+    position: absolute;
+    background: #000000;
+    opacity: 0.8;
+    top: 120px;
+    left: 100px;
+    width: 1350px;
+    height: 1150px;
+  }
+   /* APARTADO DE IMÁGENES  */
+  #Logo {
+    position: absolute;
+    height: 100px;
+    left: 0px;
+    top: 10px;
+  }
+  #Rayo {
+    background-image: url(https://cdn.discordapp.com/attachments/844264291090563093/905990705573412924/unknown.png);
+    background-size: cover;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 225px;
+    top: 830px;
+}
+#gif4 {
+  position: absolute;
+  bottom: 0px;
+  left: 825px;
+}
+
+    /* APARTADO DEL MENU */
+
+    #Menu {
+        position: fixed;
+        z-index: 100;
+        width: 900px;
+        right: 0%;
+        left: 700px;
+        top: 0;
+      }
+
+      .menu {
+        list-style: none;
+        padding: 0%;
+        width: 80%;
+        max-width: 1000px;
+        margin: auto;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        box-shadow: 3px 3px 5px 3px #999;
+      }
+
+      .menu li a:hover {
+        background-color: rgba(17, 0, 255, 0.61);
+      }
+
+      .menu > li {
+        float: left;
+      }
+
+      .menu li ul {
+        display: none;
+        position: absolute;
+        min-width: 140px;
+      }
+
+      .menu li:hover > ul {
+        display: block;
+      }
+
+      .menu li a {
+        background-color: rgba(61, 61, 61, 0.671);
+        text-decoration: none;
+        color: #ffffff;
+        padding: 20px;
+        display: block;
+      }
+
+      .menu li {
+        display: inline-block;
+        text-align: center;
+      }
+
+       /* APARTADO DEL TITULO   */
+      #Titulo {
+        color: white;
+        font-size: 35px;
+        text-align: center;
+      }
+
+      /* APARTADO DE TEXTO */
+      #Text{
+        color: rgb(255, 255, 255);
+        font-size: 17px;
+        text-align: justify;
+        margin:20px;
+    }
+
+    #Text2{
+      color: rgb(255, 255, 255);
+      font-size: 17px;
+      text-align: justify;
+      margin: 20px;
+  }
+
+  #Text3{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    text-align: justify;
+    margin: 20px;
+}

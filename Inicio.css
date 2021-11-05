@@ -1,0 +1,118 @@
+body {
+    background-image: url(http://31.media.tumblr.com/85beae914c6e1ca93ffae71136dbb0e8/tumblr_mq62ruy6Np1s0sq15o1_500.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  header {
+    position: absolute;
+    background: #000000;
+    opacity: 0.8;
+    top: 120px;
+    left: 100px;
+    width: 1350px;
+    height: 580px;
+  }
+  /* APARTADO DE IMÁGENES */
+  #Logo {
+    position: absolute;
+    height: 100px;
+    left: 0px;
+    top: 10px;
+  }
+  #gif {
+    position: absolute;
+    bottom: 0px;
+    left: 380px;
+  }
+
+  #Img1 {
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    border-radius: 10px;
+  }
+
+  #Img2 {
+    position: absolute;
+    top: 330px;
+    left: 150px;
+    border-radius: 10px;
+  }
+  #Img3 {
+    position: absolute;
+    top: 130px;
+    left: 550px;
+    border-radius: 10px;
+  }
+  #Img4 {
+    position: absolute;
+    top: 130px;
+    left: 950px;
+    border-radius: 10px;
+  }
+  #Img5 {
+    position: absolute;
+    top: 330px;
+    left: 950px;
+    border-radius: 10px;
+  }
+
+  /* APARTADO DEL MENU */
+
+  #Menu {
+    position: fixed;
+    z-index: 100;
+    width: 900px;
+    right: 0%;
+    left: 700px;
+    top: 0;
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0%;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 3px 3px 5px 3px #999;
+  }
+
+  .menu li a:hover {
+    background-color: rgba(17, 0, 255, 0.61);
+  }
+
+  .menu > li {
+    float: left;
+  }
+
+  .menu li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+  }
+
+  .menu li:hover > ul {
+    display: block;
+  }
+
+  .menu li a {
+    background-color: rgba(61, 61, 61, 0.671);
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+    display: block;
+  }
+
+  .menu li {
+    display: inline-block;
+    text-align: center;
+  }
+
+  /* APARTADO DEL TITULO */
+  #Titulo {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+  }

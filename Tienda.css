@@ -1,0 +1,15 @@
+/* body {
+    background-image: url(http://31.media.tumblr.com/85beae914c6e1ca93ffae71136dbb0e8/tumblr_mq62ruy6Np1s0sq15o1_500.gif);
+    background-size: cover;
+    background-repeat: repeat;
+  } */
+#Img1 {
+    background-image: url(http://reparacionordenadoresbarcelona.com/wp-content/uploads/2015/11/pagina-en-construcción-ES-copia.jpg);
+    position: absolute;
+    background-repeat:no-repeat;
+    width: 1000px;
+    height: 500px;
+    background-size:800px;
+    margin-left: 375px;
+    margin-top: 150px;
+} 
